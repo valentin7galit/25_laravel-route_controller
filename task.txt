@@ -1,0 +1,15 @@
+Home work
+✅️1 - Finish populating of database through factories
+✅️2 - Create HomeController, ArticleController, TagController, CategoryController
+✅️3 - Create next routes: /, article/{id} , category/{id}, tag/{id}
+✅️4 - On home / route show list of articles, try to paginate it, each article should contain, title and sort description
+✅️5 - On article details route article/{id} show article title, content
+✅️6 - On category details category/{id} show category name and list of articles which are part of this category
+✅️7 - On tag details tag/{id} show tag name and list of articles which are part of this tag
+
+https://laravel.com/docs/8.x/controllers
+
+php artisan make:controller ArticleController 
+Route::get('/article/{id}', [ArticleController::class, 'show']);
+
+all you route method should have type of get
